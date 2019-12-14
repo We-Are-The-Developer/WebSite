@@ -12,12 +12,17 @@ header {
     width: 1280px;
     margin: 0 auto;
 }
-header .header-notice {
-    text-align: center;
-    height: 25px;
-    line-height: 25px;
+/* header .header-notice {
+    height: 35px;
+    position: relative;
 }
 header .header-form {
-    margin-top: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
     display: block;
+    position: absolute;
 }
+header .notice-text {
+    line-height: 35px;
+} */
+/* 폼 태그 css */
