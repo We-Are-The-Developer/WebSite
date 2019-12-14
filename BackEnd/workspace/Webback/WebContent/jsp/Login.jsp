@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="UTF-8" %>
 <%@page import="java.sql.Statement" %>
@@ -19,6 +18,4 @@
 %>
 </body>
 </html>
-=======
 
->>>>>>> 1b0d89023a6b897b85a3a0d7a4760508e2443467

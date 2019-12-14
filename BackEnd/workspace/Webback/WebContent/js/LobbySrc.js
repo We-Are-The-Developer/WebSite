@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var sessname = '<%=session.getAttribute("name")%>';
 function logopen()// 로그인 창열기 크기 500 600 팝업
 {
@@ -117,6 +116,3 @@ function otherqna(){
 //	window.open("content.jsp?seq=" + sendseq, "content",
 //			"width=500;,height=700;");
 //}
-=======
-
->>>>>>> 1b0d89023a6b897b85a3a0d7a4760508e2443467
