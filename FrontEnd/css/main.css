@@ -9,7 +9,6 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 header {
-    width: 1280px;
     margin: 0 auto;
 }
 /* header .header-notice {
@@ -26,8 +25,11 @@ header .notice-text {
     line-height: 35px;
 } */
 /* 폼 태그 css */
+header .register {
+    float: left;
+    margin-top: 6px;
+}    /* 로그인 아이콘 */
 main {
-    width: 1280px;
     margin: 0 auto;
     position: relative;
 }
@@ -37,7 +39,7 @@ main video {
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    width: 1280px;
+    width: 100%;
     height: auto;
     z-index: -1;
 }
@@ -48,3 +50,32 @@ main .video-hover {
     left: 50%;
     transform: translate(-50%, -650px);
 }
+/*************************************/
+main .login-form {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}    /* 로그인 폼*/
+main .register-form {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}    /* 회원가입 폼 */
+footer {
+    margin: 0 auto;
+    position: relative;
+}
+footer .introduce {
+    margin: 0 auto;
+}
+footer .introduce img {
+    width: 130px;
+    height: 35px;
+}    /* 푸터 하단 학교 소개 이미지 */
+footer .introduce .footer-text {
+    width: auto;
+    float: right;
+    font-size: 12px;
+}    /* 푸터 하단 학교 소개 텍스트 */

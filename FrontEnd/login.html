@@ -107,132 +107,22 @@
             </ul>
         </nav>
     </header>
-    <!--==========================================main=======================================-->
     <main>
-        <div class="main-video">
-            <video controls muted autoplay loop poster="img/video/main-video">
-                <source src="img/video/main-video.mp4" type="video/mp4">
-            </video>
-            <div class="bg-transparent video-hover text-white">
-                <h1>서울뉴칼라스쿨에 오신 것을</h1>
-                <h1>환영합니다</h1>
-                <p><a href="#" class="btn btn-info mtn-md">학교 소개</a></p>
-            </div>
-        </div>
-        <div class="container mt-2 mb-2">
-            <div class="card-deck">
-                <div class="card">
-                    <div class="card-header">
-                        Q&amp;A
-                    </div>
-                    <div class="card-body">
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                    </div>
+        <div class="container mt-5 mb-5">
+            <form action="" method="" class="login-form">    <!-- 로그인 폼 -->
+                <h3>서울뉴칼라스쿨</h3>
+                <div class="form-group row ml-1">
+                    <label for="exampleInputEmail1" class="col-form-label">Email Address</label>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1">            <!-- name="email" -->
                 </div>
-                <div class="card">
-                    <!--
-                        공지사항 메뉴
-                        DB에서 공지사항을 불러온 후
-                        <div class="text-left"><a href="주소">공지사항 내용</a></div>
-                        으로 불러오면 됩니다.
-                    -->
-                    <div class="card-header">
-                        공지사항
-                    </div>
-                    <div class="card-body">
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                        <div class="text-left"><a href="#">lorem</a></div>
-                    </div>
+                <div class="form-group row ml-1">
+                    <label for="exampleInputPassword1" class="col-form-label">Password</label>
+                    <input type="password" name="password" class="form-control" id="exampleInputPassword1">   <!-- name="password" -->
                 </div>
-            </div>
-        </div>
-        <div class="container mb-5">
-            <div class="card-deck" style="height: 100px;">
-                <div class="card">
-                    <div class="card-header">
-                        현재 입학생 수
-                    </div>
-                    <div class="card-body">
-                        <h1 class="text-center counter">54</h1>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        현재 재학생 수
-                    </div>
-                    <div class="card-body">
-                        <h1 class="text-center counter">52</h1>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        현재 졸업생 수
-                    </div>
-                    <div class="card-body">
-                        <h1 class="text-center counter">0</h1>
-                    </div>
-                </div>
-                <script>
-                    $('.counter').counterUp({
-                        delay: 10,
-                        time: 1000
-                    });
-                </script>
-            </div>
+                <button type="submit" class="btn btn-primary ml-1" value="login">LOGIN</button>               <!-- name="login" -->
+                <a href="#">Forgot Password?</a>
+            </form>
         </div>
     </main>
-    <br>
-    <footer class="mb-2">
-        <hr>
-        <div class="container">
-            <p class="text-center">
-                Made By <a href="mailto:">WATD</a>
-                <br>
-                (email : watd)
-                <br>
-                COPYRIGHT &copy; 2020~
-            </p>
-        </div>
-        <div class="container introduce text-secondary row">
-            <div class="thumbnail row ml-2">
-                <img src="img/smclogo.png" alt="smc" class="img-img-thumbnail">
-                <div class="mt-2 ml-1 footer-text">
-                    세명컴퓨터고등학교
-                    <br>
-                    서울특별시 은평구 통일로92가길 33
-                    <br>
-                    대표전화 02)354-1323~4
-                </div>
-            </div>
-            <div class="thumbnail row ml-4">
-                <img src="img/gtec.png" alt="smc" class="img-img-thumbnail">
-                <div class="mt-2 ml-1 footer-text">
-                    경기과학기술대학교
-                    <br>
-                    경기도 시흥시 경기과기대로 269
-                    <br>
-                    대표전화 031)496-4555
-                </div>
-            </div>
-            <div class="thumbnail row ml-1">
-                <img src="img/ibmlogo.svg" alt="smc" class="img-img-thumbnail">
-                <div class="mt-2 ml-1 footer-text">
-                    한국IBM
-                    <br>
-                    서울특별시 영동포구 여의동 국제금융로 10
-                    <br>
-                    대표전화 02)3781-7114
-                </div>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
