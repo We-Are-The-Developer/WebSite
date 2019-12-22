@@ -1,14 +1,11 @@
 var sessname = '<%=session.getAttribute("name")%>';
-function logopen()// 로그인 창열기 크기 500 600 팝업
+function loginopen()// 로그인 창열기 
 {
-	window.open("Login.jsp", "blank1",
-			'width=500,height=600,menubar=no,status=no,toolbar=no');
-} // 여기부터 파일명 화면 이름 팝업창일시 조건 이름에 따라 새화면이 나오는지 안나오는지 정해진다
-
-function registeropen()// 로그인 창열기 크기 500 600 팝업
+	window.open("Login.html", "blank1");
+} 
+function registeropen()// 회원가입 창열기  
 {
-	window.open("Register.jsp", "blank1",
-			'width=500,height=600,menubar=no,status=no,toolbar=no');
+	window.open("../html/Register.html", "blank1");
 }
 
 // //////////////////////////////////////////////////////////// 학교소개
