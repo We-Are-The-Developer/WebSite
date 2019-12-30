@@ -4,9 +4,6 @@
 <%@page import="connect.ConnectionManager" %>
 <%@page import="java.sql.*" %>
 <!DOCTYPE html>
-<html>
-<head>
-<!DOCTYPE html>
 <html lang="ko">
 <head>
     <!-- meta data -->
